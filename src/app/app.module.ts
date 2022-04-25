@@ -8,7 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { VideosComponent } from './components/videos/videos.component';
 import { PeopleComponent } from './components/people/people.component';
 import { DocumentsComponent } from './components/documents/documents.component';
-// import { AngularMaterialModule } from './angular-material.module';
+import { AngularMaterialModule } from './angular-material.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,7 @@ import { DocumentsComponent } from './components/documents/documents.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    // AngularMaterialModule
+    AngularMaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
