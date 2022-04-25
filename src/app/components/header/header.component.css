@@ -1,56 +1,20 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:wgh@400&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins" sans-serif;
-  
+.navbar-nav,
+.mr-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: space-between;
 }
-.navbar{
-  display: flex;
-  width: 100%;
-  background: rgb(194, 23, 51);
-  position: relative;
-  justify-content: center;
-  text-align: center;
+
+.container-fluid{
+  width: 80%;
 }
-hr{
-  color: rgb(16, 15, 15);
-}
-nav {
-  display: flex;
-  width: 100%;
-  background: rgb(194, 23, 51);
-  position: relative;
-  justify-content: center;
-  text-align: center;
-  padding: 15px 30px;
-}
-nav .icon {
-  font-size: 35px;
+
+h1{
   color: #fff;
-  cursor: pointer;
+  font-size: 40px;
 }
-nav ol {
-  display: flex;
-  list-style: none;
-  margin: auto 0;
-}
-nav ol li {
-  margin: 0 2px;
-}
-nav ol li a {
-  color: #fff;
-  font-size: 20px;
-  text-decoration: none;
-  text-transform: capitalize;
-  letter-spacing: 1px;
-  padding: 5px 10px;
-}
-nav ol li:hover a {
-  background: #fff;
-  color: rgb(194, 23, 51);
-}
+
 nav .search_box {
   display: flex;
   margin: auto 0;
@@ -93,128 +57,10 @@ nav .search_box span::after {
 nav .search_box span:hover::after{
   width: 100%;
 }
-nav .bar{
-  position: relative;
-  margin: auto;
-  display: none;
-}
-nav .bar span{
-  position: absolute;
-  color: #fff;
-  font-size: 35px;
-}
-input[type="checkbox"]{
-  -webkit-appearance: none;
-  display: none;
-}
 
-[data-badge] {
-  background: #d8f5ff;
-  border: 0;
-
+.name{
+  margin-top: -5px;
 }
-[data-badge]:after {
-  position: relative;
-  float: right;
-  content: attr(data-badge);
-  font-size: 9px;
-  background-color: #f4e9e9;
-  color: rgb(19, 15, 15);
-  padding: 0.35rem;
-  border-radius: 2rem;
-  top: -0.35rem;
-  right: -0.35rem;
-}
-@media screen and (max-width: 1200px) {
-  nav{
-    display: block;
-    padding: 0;
-  }
-  nav .icon{
-    display: inline-block;
-    padding: 15px 30px;;
-  }
-  nav .search_box{
-    width: 100%;
-    display: inline-flex;
-    justify-content: center;
-    margin-bottom: 15px;
-  }
-  nav .search_box input{
-    width: 90%;
-  }
-  nav ol{
-    display: flex;
-    flex-direction: column;
-    background: #fff;
-    height: 0;
-    visibility: hidden;
-    transition: 0.3s;
-  }
-  nav ol li{
-    text-align: center;
-    transition: 0.3s 0.1s all;
-    opacity: 0;
-  }
-  nav ol li a{
-    color: #000;
-    font-size: 28px;
-    padding: 25px;
-    display: block;
-  }
-  nav ol li:nth-child(1){
-    transform: translateX(-150px);
-  }
-  nav ol li:nth-child(2){
-    transform: translateX(-200px);
-  }
-  nav ol li:nth-child(3){
-    transform: translateX(-250px);
-  }
-  nav ol li:nth-child(4){
-    transform: translateX(-300px);
-  }
-  nav ol li:nth-child(5){
-    transform: translateX(-350px);
-  }
-  nav .bar{
-    display: block;
-    position: absolute;
-    top: 5px;
-    right: 80px;
-    cursor: pointer;
-  }
-  nav .bar #times{
-    display: none;
-  }
-  #check:checked ~ nav .bar #times{
-    display: block;
-  }
-  #check:checked ~ nav .bar #bars{
-    display: none;
-  }
-  #check:checked ~ nav ol{
-    visibility: visible;
-    height: 465px;
-  }
-  #check:checked ~ nav ol li:nth-child(1),
-  #check:checked ~ nav ol li:nth-child(2),
-  #check:checked ~ nav ol li:nth-child(3),
-  #check:checked ~ nav ol li:nth-child(4),
-  #check:checked ~ nav ol li:nth-child(5){
-    transform: translateX(0);
-    opacity: 1;
-  }
-
-}
-section{
-  background: url();
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-position: center;
-  background-size: cover;
-  top: 0;
-  z-index: -1;
-  filter: brightness(30%)
+.small {
+  word-wrap: break-word;
 }

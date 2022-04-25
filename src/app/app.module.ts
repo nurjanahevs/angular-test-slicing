@@ -9,6 +9,7 @@ import { VideosComponent } from './components/videos/videos.component';
 import { PeopleComponent } from './components/people/people.component';
 import { DocumentsComponent } from './components/documents/documents.component';
 import { AngularMaterialModule } from './angular-material.module';
+import { MenubarComponent } from './components/menubar/menubar.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { AngularMaterialModule } from './angular-material.module';
     VideosComponent,
     PeopleComponent,
     DocumentsComponent,
+    MenubarComponent,
   ],
   imports: [
     BrowserModule,

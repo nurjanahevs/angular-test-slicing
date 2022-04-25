@@ -18,7 +18,8 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatCheckboxModule} from '@angular/material/checkbox';
-
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatSidenavModule} from '@angular/material/sidenav';
 @NgModule({
   imports: [
     CommonModule,
@@ -40,7 +41,9 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     PortalModule,
     ScrollingModule,
     MatFormFieldModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatGridListModule,
+    MatSidenavModule
   ],
   exports: [
     CommonModule,
@@ -62,7 +65,9 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     PortalModule,
     ScrollingModule,
     MatFormFieldModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatGridListModule,
+    MatSidenavModule
   ],
 })
 export class AngularMaterialModule {}
