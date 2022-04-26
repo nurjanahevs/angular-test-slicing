@@ -64,3 +64,8 @@ nav .search_box span:hover::after{
 .small {
   word-wrap: break-word;
 }
+
+::placeholder { 
+  color: rgb(169, 44, 44);
+  opacity: 1; 
+}
