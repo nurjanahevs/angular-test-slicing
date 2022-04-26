@@ -11,6 +11,7 @@ import { DocumentsComponent } from './components/documents/documents.component';
 import { AngularMaterialModule } from './angular-material.module';
 import { MenubarComponent } from './components/menubar/menubar.component';
 import { SidebarActivityComponent } from './components/sidebar-activity/sidebar-activity.component';
+import { SidebarChannelsComponent } from './components/sidebar-channels/sidebar-channels.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { SidebarActivityComponent } from './components/sidebar-activity/sidebar-
     DocumentsComponent,
     MenubarComponent,
     SidebarActivityComponent,
+    SidebarChannelsComponent,
   ],
   imports: [
     BrowserModule,

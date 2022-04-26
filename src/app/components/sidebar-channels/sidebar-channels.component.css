@@ -1,0 +1,11 @@
+
+ul {
+  border-top: 4px solid;
+  border-bottom: 4px solid;
+}
+
+.sidebar.widget {
+  background: rgb(164, 36, 58);
+  padding: 10px 20px;
+  color: #fff;
+}

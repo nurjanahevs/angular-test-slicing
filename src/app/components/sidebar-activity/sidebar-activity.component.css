@@ -51,14 +51,8 @@ h3{
 }
 .sidebar-thumb img{
   background: #fff;
-  /* border: 1px dashed #e0e0e0;
-  padding: 6px; */
   height: 75px;
   width: 75px;
-  
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
 }
 .sidebar-content h5{ 
     font-size: 16px;
@@ -75,6 +69,9 @@ h3{
     text-decoration: none;
     font-weight: bold
 }
+ small{
+   font-weight: 400;
+ }
 .sidebar-meta{
   margin-top: 10px;
 }

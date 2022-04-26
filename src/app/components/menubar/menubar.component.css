@@ -4,10 +4,7 @@ body {
   margin: 0;
 }
 
-hr{
-  border: 2px solid white;
-  border-radius: 5px;
-}
+
 
 small {
   font-size: 12px;
@@ -47,6 +44,8 @@ nav {
 nav ul {
   list-style: none;
   text-align: center;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
 }
 nav ul li {
   display: inline-block;
