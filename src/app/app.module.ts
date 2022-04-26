@@ -10,6 +10,7 @@ import { PeopleComponent } from './components/people/people.component';
 import { DocumentsComponent } from './components/documents/documents.component';
 import { AngularMaterialModule } from './angular-material.module';
 import { MenubarComponent } from './components/menubar/menubar.component';
+import { SidebarActivityComponent } from './components/sidebar-activity/sidebar-activity.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { MenubarComponent } from './components/menubar/menubar.component';
     PeopleComponent,
     DocumentsComponent,
     MenubarComponent,
+    SidebarActivityComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,90 @@
+
+body{
+  margin-top: 40px;
+}
+ul, li {
+    list-style: none;
+}
+h5{
+  margin: 0;
+}
+hr{
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+ul{
+  border-top: 4px solid;
+  border-bottom: 4px solid;
+
+}
+h3{
+  color: #2996bd;
+  margin: 10px 0px 15px;
+  padding-bottom:10px;
+  padding-left: 10px;
+  border-left: 5px solid #32aae1;
+}
+.sidebar.widget {
+  background: rgb(164, 36, 58);
+  padding: 10px 20px;
+  color: #fff;
+}
+.sidebar.widget ul {
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+}
+.sidebar.widget ul li {
+    overflow: hidden;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.view{
+  width: 100%;
+  color: #fff;
+}
+.sidebar-thumb{
+    float: left;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.sidebar-thumb img{
+  background: #fff;
+  /* border: 1px dashed #e0e0e0;
+  padding: 6px; */
+  height: 75px;
+  width: 75px;
+  
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+}
+.sidebar-content h5{ 
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 24px;
+}
+.sidebar-content h5 a:hover{ 
+  color: #2996bd;
+}
+
+.sidebar-content h5 a{ 
+    color: #fff;
+    outline: 0 none;
+    text-decoration: none;
+    font-weight: bold
+}
+.sidebar-meta{
+  margin-top: 10px;
+}
+
+.sidebar-meta span{
+  color: #fff;
+}
+.sidebar-meta span.time{
+  margin-right: 10px;
+}
+.sidebar-meta span i{
+  color: #fff;
+}
