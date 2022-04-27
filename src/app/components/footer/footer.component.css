@@ -73,3 +73,18 @@ p{
     margin-bottom: 20px;
   }
   } */
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    display: inline-block;
+  }
+  
+  ul li a {
+    padding: 15px;
+    color: #fff;
+    text-decoration:none;
+  }
