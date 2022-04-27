@@ -1,27 +1,26 @@
-
-body{
+body {
   margin-top: 40px;
 }
-ul, li {
-    list-style: none;
+ul,
+li {
+  list-style: none;
 }
-h5{
+h5 {
   margin: 0;
 }
-hr{
+hr {
   color: #fff;
   border: 1px solid white;
   border-radius: 5px;
 }
-ul{
+ul {
   border-top: 4px solid;
   border-bottom: 2px solid;
-
 }
-h3{
+h3 {
   color: #2996bd;
   margin: 10px 0px 15px;
-  padding-bottom:10px;
+  padding-bottom: 10px;
   padding-left: 10px;
   border-left: 5px solid #32aae1;
 }
@@ -31,57 +30,72 @@ h3{
   color: #fff;
 }
 .sidebar.widget ul {
-    margin: 0px;
-    padding: 0;
-    overflow: hidden;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
 }
 .sidebar.widget ul li {
-    overflow: hidden;
-    font-size: 14px;
-    margin-bottom: 20px;
+  overflow: hidden;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
-.view{
+.view {
   width: 100%;
   color: #fff;
 }
-.sidebar-thumb{
-    float: left;
-    overflow: hidden;
-    margin-right: 15px;
+.sidebar-thumb {
+  float: left;
+  overflow: hidden;
+  margin-right: 15px;
 }
-.sidebar-thumb img{
+.sidebar-thumb img {
   background: #fff;
   height: 75px;
   width: 75px;
 }
-.sidebar-content h5{ 
-    font-size: 16px;
-    cursor: pointer;
-    line-height: 24px;
+
+.sidebar-content h5 {
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 24px;
 }
-.sidebar-content h5 a:hover{ 
+.sidebar-content h5 a:hover {
   color: #2996bd;
 }
 
-.sidebar-content h5 a{ 
-    color: #fff;
-    outline: 0 none;
-    text-decoration: none;
-    font-weight: bold
+.sidebar-content h5 a {
+  color: #fff;
+  outline: 0 none;
+  text-decoration: none;
+  font-weight: bold;
 }
- small{
-   font-weight: 400;
- }
-.sidebar-meta{
+small {
+  font-weight: 400;
+}
+.sidebar-meta {
   margin-top: 10px;
 }
 
-.sidebar-meta span{
+.sidebar-meta span {
   color: #fff;
 }
-.sidebar-meta span.time{
+.sidebar-meta span.time {
   margin-right: 10px;
 }
-.sidebar-meta span i{
+.sidebar-meta span i {
   color: #fff;
+}
+
+.border {
+  border: 4px solid #fff;
+  /* box-shadow: 0 0 5px 2px #eef2f7; */
+  padding: 2px;
+}
+
+.btn-close {
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  left: 3%;
+  top: 50%;
 }
