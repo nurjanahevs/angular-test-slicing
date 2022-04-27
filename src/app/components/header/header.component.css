@@ -69,3 +69,10 @@ nav .search_box span:hover::after{
   color: rgb(169, 44, 44);
   opacity: 1; 
 }
+
+[data-badge] {
+  background: #d8f5ff;
+  border: 0;
+  padding: 0.45rem;
+  border-radius: 100%;
+}

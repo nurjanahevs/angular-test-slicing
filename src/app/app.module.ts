@@ -13,6 +13,7 @@ import { MenubarComponent } from './components/menubar/menubar.component';
 import { SidebarActivityComponent } from './components/sidebar-activity/sidebar-activity.component';
 import { SidebarChannelsComponent } from './components/sidebar-channels/sidebar-channels.component';
 import {LayoutModule} from '@angular/cdk/layout';
+import { FooterComponent } from './components/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +24,7 @@ import {LayoutModule} from '@angular/cdk/layout';
     MenubarComponent,
     SidebarActivityComponent,
     SidebarChannelsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
