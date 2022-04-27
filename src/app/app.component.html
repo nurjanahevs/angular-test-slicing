@@ -1,9 +1,22 @@
 <div class="container-fluid">
-  <app-header></app-header>
-  <app-menubar></app-menubar>
-  <app-videos></app-videos>
-  <app-sidebar-activity></app-sidebar-activity>
-  <app-sidebar-channels></app-sidebar-channels>
+<!-- <app-header></app-header>
+<app-menubar></app-menubar>
+<app-sidebar-activity></app-sidebar-activity>
+<app-videos></app-videos>
+<app-people></app-people>
+<app-documents></app-documents> -->
+
+<div fxLayout="column" fxLayoutAlign="center">
+  <mat-card fxFlex="100">
+  <div fxLayout="column">
+      <div fxFlex="10" class="action-blurb"><app-header></app-header></div>
+      <div fxFlex="10" class="action-blurb" fxFlexOffset=""><app-menubar></app-menubar></div>
+      <div fxFlex="10" class="action-blurb" fxFlexOffset=""><app-videos></app-videos></div>
+      <div fxFlex="10" class="action-blurb" fxFlexOffset="-32.2"><app-sidebar-activity></app-sidebar-activity></div>
+
+  </div>
+  </mat-card>
+  </div>
 </div>
 
 

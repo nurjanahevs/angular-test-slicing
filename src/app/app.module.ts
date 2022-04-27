@@ -1,3 +1,4 @@
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -8,11 +9,10 @@ import { HeaderComponent } from './components/header/header.component';
 import { VideosComponent } from './components/videos/videos.component';
 import { PeopleComponent } from './components/people/people.component';
 import { DocumentsComponent } from './components/documents/documents.component';
-import { AngularMaterialModule } from './angular-material.module';
 import { MenubarComponent } from './components/menubar/menubar.component';
 import { SidebarActivityComponent } from './components/sidebar-activity/sidebar-activity.component';
 import { SidebarChannelsComponent } from './components/sidebar-channels/sidebar-channels.component';
-
+import {LayoutModule} from '@angular/cdk/layout';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +28,9 @@ import { SidebarChannelsComponent } from './components/sidebar-channels/sidebar-
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    AngularMaterialModule,
+    FlexLayoutModule,
+    LayoutModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
